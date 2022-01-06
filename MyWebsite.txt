@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<title>AN's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href=https://fonts.googleapis.com/css?family=playball>
+
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "playball", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("bic.gif");
+  min-height: 90%;
+}
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-red w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#games" class="w3-bar-item w3-button">Games</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">2018-2019</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+<h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min" style="font-size:100px"><b>AN's Website</b></span></h1>
+<h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-white w3-opacity-min" style="font-size:50px"><b>Made By Andrew Ni</b></span></h1>
+
+</header>
+
+<!-- About Container -->
+<style>
+
+div {
+  background-color: black;
+  padding: 10px;
+}
+
+div.first {
+  opacity: 0.1;
+  filter: alpha(opacity=10); 
+}
+
+</style>
+</head>
+<body>
+
+
+<center><font size="21"><font color="white"><div><p>See more below</p></div></font></font></center>
+</style>
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>This is my second html website. On this website you can explore a variety of things: information about me, new games and etc. There are is also a page where you can visit my youtube channel and watch my videos. This website is still in progress, so expect to see more updates in the future. Updates will include more games, videos and just a general update to the website.</p>
+    <p><strong>Picture of me</strong><img src="me.gif" style="width:300px; height:500" class="w3-circle w3-left" alt="Me"></p>
+   <img src="temp.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Temp">
+    <h1><b>Stats</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Age: 17</p>
+        <p>Speed: 100</p>
+        <p>Strength: 100</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Stamina: 100</p>
+        <p>Gender: Male</p>
+        <p>School: Templeton Secondary</p>
+      </div>
+    </div>
+    
+  </div>
+<u><div class="w3-container w3-padding-32" id="other stuff"></u>
+    <h3 class="w3-border-bottom w3-border-black w3-padding-16">Other Stuff</h3>
+ 
+<form method="get" action="https://www.youtube.com/channel/UCXW4r4VDEUl73a5q2cRfkGg">     
+<button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Youtube Channel
+      </button>
+    </form>
+<iframe width="454" height="345"
+src="https://www.youtube.com/embed/Sx6U5Ho-21k">
+</iframe>
+
+<iframe width="454" height="345"
+src="https://www.youtube.com/embed/Oc1FjdCXTng">
+</iframe>
+
+<iframe width="454" height="345"
+src="https://www.youtube.com/embed/2O3nMWlalCg">
+</iframe>
+<iframe width="454" height="345"
+src="https://www.youtube.com/embed/UXQ7odZWVrI">
+</iframe>
+
+
+</div>
+
+</div>
+
+<!-- Games Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="games">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Games</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Fighting');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Fighting</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Typing');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Typing</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Other');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Other</div>
+      </a>
+    </div>
+
+    <div id="Fighting" class="w3-container menu w3-padding-32 w3-white">
+
+      <h1><b>Chaos Faction 2</b><form method="get" action="https://sites.google.com/site/barbergamesunblocked/categories/action/chaos-faction-2">  
+<img src="cf2.jpg" style="width:300px; height:255" class="w3-rectangle w3-right">   
+<br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br>
+    </form>
+<hr>
+
+      <h1><b>Electric Man 2</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/electric-man-2">     
+<img src="electric.jpg" style="width:300px; height:190" class="w3-rectangle w3-right">
+<br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br>
+    </form>
+<hr>
+      
+      <h1><b>Bullet Force</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/bullet-force">    
+<img src="bullet.jpg" style="width:300px; height:190" class="w3-rectangle w3-right"> 
+<br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br>
+    </form>
+<hr>
+
+      <h1><b>Dead Zed 2</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/dead-zed-2"> 
+<img src="dead.png" style="width:300px; height:100" class="w3-rectangle w3-right">    
+<br><button class="w3-button w3-red w3-section" type="submit">
+ <i class="fa fa-paper-plane"></i> Play
+      </button></br>
+    </form>
+<hr>
+
+      <h1><b>Gun Blood</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/gun-blood">   
+<img src="gun.jpg" style="width:300px; height:190" class="w3-rectangle w3-right">     
+<br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br>
+    </form>
+<hr>
+
+    </div>
+
+    <div id="Typing" class="w3-container menu w3-padding-32 w3-white">
+           <h1><b>Typing Speed Test</b><form method="get" action="https://typing-speed-test.aoeu.eu/">   
+<img src="type.jpg" style="width:350px; height:190" class="w3-rectangle w3-right">       
+<br><br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br></br>
+    </form>
+<hr>
+
+           <h1><b>Typing Speed Test 2</b><form method="get" action="https://10fastfingers.com/typing-test/english">   
+<img src="type2.png" style="width:350px; height:150" class="w3-rectangle w3-right">  
+<br><br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br></br>
+    </form>
+<hr>
+
+</div>
+
+ <div id="Other" class="w3-container menu w3-padding-32 w3-white">
+           <h1><b>Happy Wheels</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/happy-wheels">   
+<img src="happy.jpg" style="width:350px; height:190" class="w3-rectangle w3-right">  
+<br><br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br></br>
+    </form>
+<hr>
+
+           <h1><b>PacMan</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/pacman"> 
+<img src="pac.jpg" style="width:350px; height:190" class="w3-rectangle w3-right">    
+<br><br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br></br>
+    </form>
+<hr>
+
+           <h1><b>Run 2</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/run-2">   
+<img src="run2.jpg" style="width:350px; height:190" class="w3-rectangle w3-right">     
+<br><br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br></br>
+    </form>
+<hr>
+      
+	<h1><b>Run 3</b><form method="get" action="https://sites.google.com/site/unblockedgamessms6969/run-3">     
+<img src="run3.png" style="width:350px; height:190" class="w3-rectangle w3-right">   
+<br><br><button class="w3-button w3-red w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> Play
+      </button></br></br>
+    </form>
+<hr>
+
+  </div>
+
+
+<!-- Contact -->
+ <div id="contact">
+<div class="w3-container w3-padding-64 w3-red w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Phone: 012-345-6789</p>
+    <p class="w3-xxlarge"><strong>Send</strong> me a message for any updates/suggestions you want to see on this website.</p>
+    
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Age" required name="Age"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+
+<i><b><a href="0.html" class="w3-bar-item w3-button w3-red">Send</a></i></b>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>AN's Website</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

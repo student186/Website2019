@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+
+
+<body background="virus.gif">
+<img src="virus1.gif" alt="Smiley face" height="332" width="950" style="position:absolute;right:450px;bottom:275px;"/>
+
+<img src="virus2.gif" alt="Smiley face" height="572" width="750" style="position:absolute;left:0px;top:-170px;"/>
+
+
+<b><font color="red"><font size="20"><marquee scrollamount="10">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="15">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="20">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="25">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="30">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="35">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="40">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="45">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="50">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="55">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="60">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="65">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="70">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="75">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="red"><font size="20"><marquee scrollamount="80">DOWNLOADING VIRUS</marquee></font></font></b>
+<b><font color="yellow"><font size="20"><marquee scrollamount="85">DOWNLOADING VIRUS</marquee></font></font></b>
+
+</html>
